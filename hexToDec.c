@@ -8,7 +8,7 @@ int main()
 	
 	int a, b, c, d, e, f;
 
-	a = 0x400 ; //DEC1024
+	a = 0x400 ; 	//DEC1024
 	b = 0xaa ;	//DEC170
 	c = 0xff ;	//DEC255
 	d = 0xb2 ;	//DEC178
