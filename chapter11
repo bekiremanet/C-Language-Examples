@@ -1,0 +1,37 @@
+// Chapter 11 Topics
+
+-> Process Segments     // Kodun çalıştığı zaman aralığı.
+
+-  HEAP SEGMENT   : Çalışma zamanında ayrılan bellek. Dinamik alan.
+-  STACK SEGMENT  : Otomatik ömürlü değişkenlerin konumlandırıldığı bellek alanı.
+-  DATA SEGMENT   : Statik ömürlü değişkenlerin değeri tutulur.
+-  CODE SEGMENT   : Yürütülecek kodlar (komutlar) tutulur.
+
+-> ctype.h     // test functions
+   
+-  isupper();
+-  islower();
+-  isalpha();
+-  isdigit();
+-  isalnum();
+-  isxdigit();
+-  isspace();
+-  isprint();
+-  isgraph();
+-  isblank();
+-  iscntrl();
+-  toupper();   // case-insensitive (büyük/küçük harfe duyarlılık)
+-  tolower();   // case-insensitive (büyük/küçük harfe duyarlılık)
+   
+-> getchar(void);
+-> putchar(int);
+
+-> conio.h
+   
+-  _getch();
+-  _getche();
+   
+-> Ternary Operator (one-liner) // Koşul Operatörü (?)
+
+-  a>b ? a:b;
+   
