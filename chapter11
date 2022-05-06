@@ -34,4 +34,4 @@
 -> Ternary Operator (one-liner) // Koşul Operatörü (?)
 
 -  a>b ? a:b;
-   
+-  *(x > 0 ? &a : &b) = 0   // x eğer 0'dan büyükse, a'nın bulunduğu adresin tuttuğu değere 0 ata, değilse b'nin bulunduğu adresteki değere 0 ata.   
