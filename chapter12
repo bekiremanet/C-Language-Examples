@@ -1,1 +1,54 @@
+// Chapter 12 Topics
+
+
+
+-> Döngü Deyimleri (Loop Statements)
+    -while
+    -do-while
+    -for
+
+-> Yardımcı Döngü Deyimleri 
+    -break
+    -continue
+    -switch
+    
+-> Infinite Loop (Sonsuz Döngü)
+
+-> Bir döngüden nasıl çıkılır?
+    -Kontrol ifadesinin yanlış olmasıyla.
+    -return deyimiyle.
+    -break statement --> Döngüden çıkışı sağlar, sadece döngü içersinde kullanılır.
+    -goto statement
+    -exit & abort.
+    
+-> return & break farkı?
+    -return : fonksiyondan direkt çıkılır.
+    -break  : fonksiyonun çalışması sonlanmaz, döngüden çıkılır.
+    
+-> Sonsuz döngü idiomları?
+  - while(n--)
+  - while(n-- > 0)
+  - while((ch = getchar()!='\n'))
+
+  - while(1)
+    {
+    }
+
+ -  for(;;)
+    {
+    }	
+		
+-> #include "limits.h" -->
+    - int min = INT_MIN // En küçük integer sayı.
+    - int max = INT_MAX // En büyük integer sayı.
+    
+ -> Rekürsif Fonksiyonlar
+ 
+    -Üs Bulma
+    -Faktöriyel vs.
+ 
+    
+    
+
+
 
